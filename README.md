@@ -1,2 +1,5 @@
-# 2019-09-17_am-review
-Created with CodeSandbox
+## CSS Responsiveness practice
+
+Displaying a hamburger menu at smaller screen width.
+
+Hamburger menu toggles a modal for menu.

@@ -1,0 +1,35 @@
+#Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu {
+  width: 40vw;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+}
+
+#menu li {
+  width: 33%;
+  text-align: center;
+}
+
+#ham_menu_icon {
+  display: block;
+}
+
+#ham_menu_icon:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 650px) {
+  #menu {
+    display: flex;
+  }
+
+  #ham_menu_icon {
+    display: none;
+  }
+}
